@@ -134,7 +134,7 @@ while True:
 			cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
  
 	#Code to show the frame 
-	cv2.imshow("Frame", frame)
+	cv2.imshow("Self-Braking Car by Pedro Incaio", frame)
 	key = cv2.waitKey(1) & 0xFF
  
 	#Creating the exit key in this case de 'q'
